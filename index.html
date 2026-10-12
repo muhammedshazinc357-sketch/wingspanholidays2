@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover unforgettable holidays with WINGSPAN HOLIDAYS. Explore Thailand, Bali, Malaysia, Georgia and tailor-made travel services from Taliparamba, Kerala.">
+  <meta name="theme-color" content="#092f35">
+  <title>WINGSPAN HOLIDAYS | Your Journey, Our Passion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>✦ Your next great story starts here</span>
+      <a href="https://wa.me/918136834678" target="_blank" rel="noopener">WhatsApp us: +91 81368 34678</a>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Wingspan Holidays home">
+        <span class="brand-mark">W<span>✦</span></span>
+        <span class="brand-copy"><strong>WINGSPAN</strong><small>HOLIDAYS</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="nav" id="mainNav">
+        <a href="#home">Home</a><a href="#destinations">Destinations</a><a href="#services">Our Services</a><a href="#about">About Us</a>
+        <a class="nav-cta" href="#contact">Plan My Trip <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <div class="eyebrow light"><span></span> TRAVEL BEYOND THE ORDINARY</div>
+        <h1>The world is waiting.<br><em>Let's go.</em></h1>
+        <p>Beautiful places. Thoughtful plans. Unforgettable memories.<br>Let WINGSPAN HOLIDAYS make your next escape effortless.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#destinations">Explore Packages <span>↗</span></a>
+          <a class="button button-glass" href="https://wa.me/918136834678?text=Hello%20Wingspan%20Holidays%2C%20I%20would%20like%20to%20plan%20a%20trip." target="_blank" rel="noopener">Chat on WhatsApp</a>
+        </div>
+        <div class="hero-note"><span class="note-icon">✈</span><span><strong>Your trip, your way</strong><small>Personalised travel planning</small></span></div>
+      </div>
+      <div class="hero-stamp"><span>MAKE</span><strong>MEMORIES</strong><span>NOT JUST PLANS</span></div>
+    </section>
+
+    <section class="quick-info">
+      <div class="container info-grid">
+        <div class="info-item"><span class="info-icon">✈</span><div><strong>Flight Booking</strong><small>Easy travel planning</small></div></div>
+        <div class="info-item"><span class="info-icon">⌂</span><div><strong>Stay in Comfort</strong><small>Hotels & room options</small></div></div>
+        <div class="info-item"><span class="info-icon">◎</span><div><strong>Curated Packages</strong><small>Trips made for you</small></div></div>
+        <div class="info-item"><span class="info-icon">♡</span><div><strong>Personal Support</strong><small>Here for your journey</small></div></div>
+      </div>
+    </section>
+
+    <section class="section destinations" id="destinations">
+      <div class="container">
+        <div class="section-heading">
+          <div><div class="eyebrow"><span></span> FIND YOUR SOMEWHERE</div><h2>Popular <em>destinations</em></h2></div>
+          <p>From tropical coastlines to mountain escapes, discover a destination that feels like you.</p>
+        </div>
+        <div class="filter-row" role="group" aria-label="Filter destinations">
+          <button class="filter-btn active" data-filter="all">All destinations</button>
+          <button class="filter-btn" data-filter="beach">Beach escapes</button>
+          <button class="filter-btn" data-filter="culture">Culture & city</button>
+          <button class="filter-btn" data-filter="nature">Nature</button>
+        </div>
+        <div class="destination-grid">
+          <article class="destination-card" data-category="beach">
+            <div class="card-image"><img src="https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1000&q=85" alt="Tropical longtail boats and turquoise water in Thailand" loading="lazy"><span class="card-tag">Tropical favourite</span><span class="card-number">01</span></div>
+            <div class="card-body"><div class="card-meta">ASIA <span>•</span> BEACH & ADVENTURE</div><h3>Thailand</h3><p>Island-hopping, lively markets, golden temples and sunlit beaches.</p><a class="text-link package-link" href="#contact" data-package="Thailand">Explore Thailand <span>↗</span></a></div>
+          </article>
+          <article class="destination-card" data-category="beach nature">
+            <div class="card-image"><img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1000&q=85" alt="Lush tropical Bali temple and landscape" loading="lazy"><span class="card-tag">Island serenity</span><span class="card-number">02</span></div>
+            <div class="card-body"><div class="card-meta">INDONESIA <span>•</span> ISLAND LIFE</div><h3>Bali</h3><p>Green rice terraces, peaceful temples, beach clubs and dreamy sunsets.</p><a class="text-link package-link" href="#contact" data-package="Bali">Explore Bali <span>↗</span></a></div>
+          </article>
+          <article class="destination-card" data-category="culture">
+            <div class="card-image"><img src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1000&q=85" alt="Modern Kuala Lumpur skyline in Malaysia" loading="lazy"><span class="card-tag">City discovery</span><span class="card-number">03</span></div>
+            <div class="card-body"><div class="card-meta">SOUTHEAST ASIA <span>•</span> CITY & FOOD</div><h3>Malaysia</h3><p>Iconic skylines, vibrant food streets, shopping and rainforest adventures.</p><a class="text-link package-link" href="#contact" data-package="Malaysia">Explore Malaysia <span>↗</span></a></div>
+          </article>
+          <article class="destination-card" data-category="nature culture">
+            <div class="card-image"><img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1000&q=85" alt="Beautiful mountain scenery in Georgia" loading="lazy"><span class="card-tag">Mountain escape</span><span class="card-number">04</span></div>
+            <div class="card-body"><div class="card-meta">CAUCASUS <span>•</span> MOUNTAINS & HERITAGE</div><h3>Georgia</h3><p>Mountain villages, charming old towns, rich traditions and scenic drives.</p><a class="text-link package-link" href="#contact" data-package="Georgia">Explore Georgia <span>↗</span></a></div>
+          </article>
+        </div>
+        <p class="disclaimer">Packages are customised on request. Prices, availability, visa rules and inclusions should be confirmed with our team before booking.</p>
+      </div>
+    </section>
+
+    <section class="experience" id="about">
+      <div class="container experience-grid">
+        <div class="experience-visual">
+          <img class="experience-main" src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=85" alt="Travel essentials and map ready for a journey" loading="lazy">
+          <div class="experience-badge"><strong>YOUR</strong><span>JOURNEY</span><strong>MATTERS</strong><small>Every single time</small></div>
+        </div>
+        <div class="experience-copy">
+          <div class="eyebrow"><span></span> THE WINGSPAN WAY</div>
+          <h2>More than a trip.<br><em>A feeling you'll keep.</em></h2>
+          <p class="lead">Travel should feel exciting from the very first conversation.</p>
+          <p>At WINGSPAN HOLIDAYS, we help you bring your travel ideas to life with personalised package planning, stay options and flight assistance. Tell us what you have in mind—we'll help you plan the details.</p>
+          <div class="benefit-list"><div><span>✓</span> Itineraries tailored to your interests</div><div><span>✓</span> Hotel and room options for your budget</div><div><span>✓</span> Friendly assistance while planning</div></div>
+          <a class="button button-dark" href="#contact">Let's plan together <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading centered"><div class="eyebrow"><span></span> THE DETAILS, TAKEN CARE OF</div><h2>Travel services <em>for every journey</em></h2><p>Choose the support you need, and let us help make your trip simpler.</p></div>
+        <div class="service-grid">
+          <article class="service-card"><span class="service-icon">✈</span><h3>Flight Booking</h3><p>Get help exploring flight options for your travel dates and route.</p><a href="#contact" class="service-link" data-service="Flight booking">Enquire now ↗</a></article>
+          <article class="service-card"><span class="service-icon">⌂</span><h3>Hotels & Rooms</h3><p>Find accommodation options that suit your comfort, group and budget.</p><a href="#contact" class="service-link" data-service="Hotels and rooms">Enquire now ↗</a></article>
+          <article class="service-card"><span class="service-icon">◎</span><h3>Holiday Packages</h3><p>Explore custom trips for couples, families, friends and solo travellers.</p><a href="#contact" class="service-link" data-service="Holiday packages">Enquire now ↗</a></article>
+          <article class="service-card"><span class="service-icon">◇</span><h3>Trip Planning</h3><p>Build a travel plan around your dates, interests and preferred pace.</p><a href="#contact" class="service-link" data-service="Custom trip planning">Enquire now ↗</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy"><div class="eyebrow light"><span></span> YOUR NEXT CHAPTER STARTS HERE</div><h2>Have a destination<br>in <em>mind?</em></h2><p>Share a few details and we'll help you take the next step.</p>
+          <div class="contact-details">
+            <a href="https://wa.me/918136834678" target="_blank" rel="noopener"><span>◉</span><div><small>CALL OR WHATSAPP</small><strong>+91 81368 34678</strong></div></a>
+            <a href="mailto:wingspanholiday@gmail.com"><span>✉</span><div><small>EMAIL US</small><strong>wingspanholiday@gmail.com</strong></div></a>
+            <a href="https://www.instagram.com/wingspan.holidays/" target="_blank" rel="noopener"><span>◎</span><div><small>FOLLOW OUR JOURNEY</small><strong>@wingspan.holidays</strong></div></a>
+            <div class="contact-detail-static"><span>⌖</span><div><small>VISIT US</small><strong>Marketplace, Taliparamba, Kerala</strong></div></div>
+          </div>
+        </div>
+        <form class="enquiry-form" id="enquiryForm">
+          <h3>Plan your getaway</h3><p>Fill in your details to start a WhatsApp enquiry.</p>
+          <label for="fullName">Your name</label><input id="fullName" name="fullName" type="text" placeholder="Enter your name" required>
+          <div class="form-row"><div><label for="destination">Destination</label><select id="destination" name="destination" required><option value="">Choose destination</option><option>Thailand</option><option>Bali</option><option>Malaysia</option><option>Georgia</option><option>Not decided yet</option></select></div><div><label for="travellers">Travellers</label><select id="travellers" name="travellers"><option>1 traveller</option><option selected>2 travellers</option><option>3–4 travellers</option><option>5+ travellers</option></select></div></div>
+          <label for="travelDate">Preferred travel date</label><input id="travelDate" name="travelDate" type="date">
+          <label for="requirements">Anything else? <span>(optional)</span></label><textarea id="requirements" name="requirements" rows="3" placeholder="Budget, number of days, hotel preferences..."></textarea>
+          <button class="button button-primary form-submit" type="submit">Send enquiry on WhatsApp <span>↗</span></button>
+          <small class="form-footnote">This opens WhatsApp with your enquiry details for you to send.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main">
+      <a class="brand brand-footer" href="#home"><span class="brand-mark">W<span>✦</span></span><span class="brand-copy"><strong>WINGSPAN</strong><small>HOLIDAYS</small></span></a>
+      <p>Collect moments. Discover more.<br>Your journey begins with us.</p>
+      <a class="back-top" href="#home">Back to top ↑</a>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> WINGSPAN HOLIDAYS. All rights reserved.</span><span>Made with care by <strong>MUHAMMAD SHAZIN C</strong> · <a href="https://wa.me/919400701146" target="_blank" rel="noopener">WhatsApp 94007 01146</a></span></div>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/918136834678?text=Hello%20Wingspan%20Holidays%2C%20I%20need%20travel%20assistance." aria-label="Chat with Wingspan Holidays on WhatsApp" target="_blank" rel="noopener">◉ <span>Chat with us</span></a>
+  <script src="script.js"></script>
+</body>
+</html>
